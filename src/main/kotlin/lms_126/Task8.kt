@@ -20,7 +20,7 @@ fun task8(): String {
         
         IF x = not x * 3 or x = not x * 5 
         OUTPUT Qix 
-        println 
+        ELSE error 
         
     """.trimMargin()
 }
