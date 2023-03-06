@@ -1,6 +1,12 @@
 package lms_129
 
-fun task3(number: Int): Int {
+fun main(){
+    val number = 8
+    var result = 1
+    for (i in 1..number) {
+        result =result * i
+    }
+    println("Factorial of $number = $result")
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+
 }
