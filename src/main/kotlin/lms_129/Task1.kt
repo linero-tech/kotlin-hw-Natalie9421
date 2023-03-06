@@ -14,7 +14,7 @@ fun main() {
         }
     }
 
-    println(result) // Output: 15
+    println(result)
 }
 
 
