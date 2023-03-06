@@ -1,6 +1,14 @@
 package lms_129
 
-fun task5(sentence: String): Int {
+fun main() {
+    val sentence = "i love gbg"
+    var count = 0
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    for (char in sentence) {
+        if (char !== ' ') {
+            count++
+        }
+    }
+
+    println("The sentence '$sentence' has $count characters.")
 }
