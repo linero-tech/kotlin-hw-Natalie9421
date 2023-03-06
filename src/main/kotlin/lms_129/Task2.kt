@@ -1,7 +1,7 @@
 package lms_129
 
 fun main() {
-    
+
     val number = 19
     var result = true
     if (number <= 1) {
