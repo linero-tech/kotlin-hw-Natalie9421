@@ -1,6 +1,11 @@
 package lms_129
 
-fun task4(): Int {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+fun main() {
+    var result = 0
+    for (i in 1..1000) {
+        if (i % 9 == 0) {
+            result = i
+        }
+    }
+    println("The sum of all integers between 1 and 1000 which are divisible by 9 is: $result")
 }
