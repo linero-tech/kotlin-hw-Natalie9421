@@ -5,7 +5,7 @@ fun main() {
     var count = 0
 
     for (char in sentence) {
-        if (char !== ' ') {
+        if (char in sentence) {
             count++
         }
     }
