@@ -1,6 +1,11 @@
 package lms_129
 
-fun task8(number: Int): Int {
+fun main(){
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+    val number = 1234
+    var result = 0
+    for (char in number.toString()) {
+        result = result + char.toString().toInt()
+    }
+    println(result)
 }
