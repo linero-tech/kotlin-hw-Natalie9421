@@ -1,6 +1,15 @@
 package lms_129
 
-fun task7(a: Int, b: Int): Int {
-
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+fun main() {
+    val a = 1
+    val b = 3
+    var result = 1
+    if (a == 0 && b == 0) {
+        result = 1
+    } else {
+        for (i in 1..b) {
+            result = result * a
+        }
+    }
+    println(result)
 }
